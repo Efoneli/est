@@ -30,9 +30,6 @@ function Header() {
         </div>
         <div className='flex justify-between items-center'>
         <button className='flex items-center justify-between shadow-lg shadow-red-500 rounded-md px-3 py-1 text-orangeColor'>
-          <div>
-
-          </div>
         <BiSolidUser className='text-yellowColor' />
           Login
         </button>
