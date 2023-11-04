@@ -7,27 +7,33 @@ import { BiSolidUser } from "react-icons/bi";
 function Header() {
   return (
     <>
-    <div className='flex justify-between items-center'>
+    <div className='flex justify-around items-center m-3 p-2'>
 
     <div>
       <img src={logo} alt='logo' />
     </div>
 
       <div className='flex justify-center items-center'>
-        <FaLocationDot className='text-red-500' />
+        <FaLocationDot className='text-yellowColor' />
       <p>Deliver to:</p>
       <div>
         current location <span>Mohammed Bus stand, dhak</span>
       </div>
       </div>
 
-      <div className='flex '> 
-        <div>
+      <div className='flex justify-between items-center'> 
+        <div className='flex justify-between items-center'>
+          <div className='text-yellowColor text-bold'>
           <AiOutlineSearch />
+          </div>
+          <p className='text-bold'>Search Food</p>
         </div>
         <div className='flex justify-between items-center'>
-        <BiSolidUser />
-        <button className='shadow-lg shadow-red-500 rounded-md px-3 py-1'>
+        <button className='flex items-center justify-between shadow-lg shadow-red-500 rounded-md px-3 py-1 text-orangeColor'>
+          <div>
+
+          </div>
+        <BiSolidUser className='text-yellowColor' />
           Login
         </button>
         </div>  
