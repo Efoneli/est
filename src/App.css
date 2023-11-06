@@ -9,3 +9,9 @@
   background: white;
   box-shadow: 3px 3px -8px 3px #ddd;
 }
+
+.home {
+  background: url(./components/Assets/images/home-bg.png);
+  background-repeat: no-repeat;
+  object-fit: fill;
+}
