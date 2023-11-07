@@ -4,7 +4,7 @@ import Image1 from "../components/Assets/images/Image1.png";
 function FlashCard() {
   return (
     <>
-      <div className="grid grid-cols-2  phone:grid-cols-4 laptop:mx-8">
+      <div className="grid grid-cols-2  phone:grid-cols-4 mx-10 my-6 mt-6">
 
         <div className="m-2 p-2">
           <div className="relative">
