@@ -6,17 +6,25 @@ import Image14 from '../images/Image14.png'
 import Image15 from '../images/Image15.png'
 import Image16 from '../images/Image16.png'
 import Image17 from '../images/Image17.png'
+import badge1 from '../images/badge1.png'
+import badge2 from '../images/badge2.png'
+import badge3 from '../images/badge3.png'
+import badge4 from '../images/badge4.png'
+import badge5 from '../images/badge5.png'
+import badge6 from '../images/badge6.png'
+import badge7 from '../images/badge7.png'
+import badge8 from '../images/badge8.png'
 
 
-export const FeaturedDatas = [
+export const featuredDatas = [
     {
         id: '1',
-        name: 'FoodWorld',
+        resName: 'FoodWorld',
         discount: '20% off',
         badgeFast: 'Fast',
         openTime: 'Opens Tomorrow',
         star: '46',
-        badge: '20% off',
+        badge: badge1,
         photo: Image10,
     },
 
@@ -27,7 +35,7 @@ export const FeaturedDatas = [
         badgeFast: 'Fast',
         openTime: 'Opens Tomorrow',
         star: '40',
-        badge: '',
+        badge: badge2,
         photo: Image11,
     },
 
@@ -38,7 +46,7 @@ export const FeaturedDatas = [
         badgeFast: 'Fast',
         openTime: 'Open Now',
         star: '20',
-        badge: '',
+        badge: badge3,
         photo: Image12,
     },
 
@@ -49,7 +57,7 @@ export const FeaturedDatas = [
         badgeFast: 'Fast',
         openTime: 'Open Now',
         star: '50',
-        badge: '',
+        badge: badge4,
         photo: Image13,
     },
 
@@ -60,7 +68,7 @@ export const FeaturedDatas = [
         badgeFast: 'Fast',
         openTime: 'Open Now',
         star: '26',
-        badge: '',
+        badge: badge5,
         photo: Image14,
     },
 
@@ -71,7 +79,7 @@ export const FeaturedDatas = [
         badgeFast: 'Fast',
         openTime: 'Open Now',
         star: '53',
-        badge: '',
+        badge: badge6,
         photo: Image15,
     },
 
@@ -82,7 +90,7 @@ export const FeaturedDatas = [
         badgeFast: 'Fast',
         openTime: 'Open Now',
         star: '45',
-        badge: '',
+        badge: badge7,
         photo: Image16,
     },
 
@@ -93,7 +101,7 @@ export const FeaturedDatas = [
         badgeFast: 'Fast',
         openTime: 'Open Now',
         star: '35',
-        badge: '',
+        badge: badge8,
         photo: Image17,
     },
 ]

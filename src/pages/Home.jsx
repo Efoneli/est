@@ -7,7 +7,7 @@ import ImageHome from "../components/Assets/images/ImageHome.png";
 import FlashCard from "./FlashCard";
 import HowWorks from "../components/How/HowWorks";
 import PopularItems from "./PopularItems";
-import FeaturedRes from "../components/Featured/FeaturedResCard";
+import FeaturedRes from "./FeaturedRes";
 
 function Home() {
   return (
