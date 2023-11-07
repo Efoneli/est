@@ -14,10 +14,10 @@
   background: url(./components/Assets/images/home-bg.png);
   background-repeat: no-repeat;
   object-fit: cover;
-  width: screen;
-  height: auto;
 }
 
 .flashCard1 {
   background: url(./components/Assets/images/Image1.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
