@@ -4,7 +4,7 @@ import invoice from '../images/Invoice.png'
 import donut from '../images/donut.png'
 
 
-export const how = [
+export const datas = [
     {
         id: '1',
         title: 'Select location',
