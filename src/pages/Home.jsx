@@ -6,6 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import ImageHome from "../components/Assets/images/ImageHome.png";
 import FlashCard from "./FlashCard";
 import HowWorks from "../components/How/HowWorks";
+import PopularItems from "./PopularItems";
 
 function Home() {
   return (
@@ -65,6 +66,7 @@ function Home() {
 
     <FlashCard />
     <HowWorks />
+    <PopularItems />
     </>
   );
 }
