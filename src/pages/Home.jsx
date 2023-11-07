@@ -4,9 +4,11 @@ import { GrBike } from "react-icons/gr";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaLocationDot } from "react-icons/fa6";
 import ImageHome from "../components/Assets/images/ImageHome.png";
+import FlashCard from "./FlashCard";
 
 function Home() {
   return (
+    <>
     <div className="home p-5">
       <h1 className="text-white font-extrabold text-3xl phone:pt-10 pb-5 ml-20 pl-9 ">Are you starving?</h1>
       <p className="text-xs py-2 phone:ml-20 pl-9">
@@ -59,6 +61,9 @@ function Home() {
         </div>
       </div>
     </div>
+
+    <FlashCard />
+    </>
   );
 }
 
