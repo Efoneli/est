@@ -5,6 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { FaLocationDot } from "react-icons/fa6";
 import ImageHome from "../components/Assets/images/ImageHome.png";
 import FlashCard from "./FlashCard";
+import HowWorks from "./HowWorks";
 
 function Home() {
   return (
@@ -63,6 +64,7 @@ function Home() {
     </div>
 
     <FlashCard />
+    <HowWorks />
     </>
   );
 }

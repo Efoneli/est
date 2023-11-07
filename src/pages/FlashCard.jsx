@@ -1,5 +1,9 @@
 import React from "react";
 import Image1 from "../components/Assets/images/Image1.png";
+import Image2 from "../components/Assets/images/Image2.png";
+import Image3 from "../components/Assets/images/Image3.png";
+import Image4 from "../components/Assets/images/Image4.png";
+
 
 function FlashCard() {
   return (
@@ -26,9 +30,9 @@ function FlashCard() {
 
         <div className="m-2 p-2">
           <div className="relative">
-            <img src={Image1} alt="image" className="rounded-lg" />
+            <img src={Image2} alt="image" className="rounded-lg" />
             <div className="absolute bottom-0 left-0 right-0px-4 py-1 px-2 bg-yellowColor flex items-center rounded-tr-lg rounded-bl-lg">
-              <h2 className="text-4xl text-white font-bold">15</h2>
+              <h2 className="text-4xl text-white font-bold">10</h2>
               <div>
                 <p className="text-2xl text-white font-bold pl-1">%</p>
                 <p className="text-md text-white">off</p>
@@ -44,9 +48,9 @@ function FlashCard() {
 
         <div className="m-2 p-2">
           <div className="relative">
-            <img src={Image1} alt="image" className="rounded-lg" />
+            <img src={Image3} alt="image" className="rounded-lg" />
             <div className="absolute bottom-0 left-0 right-0px-4 py-1 px-2 bg-yellowColor flex items-center rounded-tr-lg rounded-bl-lg">
-              <h2 className="text-4xl text-white font-bold">15</h2>
+              <h2 className="text-4xl text-white font-bold">25</h2>
               <div>
                 <p className="text-2xl text-white font-bold pl-1">%</p>
                 <p className="text-md text-white">off</p>
@@ -62,9 +66,9 @@ function FlashCard() {
 
         <div className="m-2 p-2">
           <div className="relative">
-            <img src={Image1} alt="image" className="rounded-lg" />
+            <img src={Image4} alt="image" className="rounded-lg" />
             <div className="absolute bottom-0 left-0 right-0px-4 py-1 px-2 bg-yellowColor flex items-center rounded-tr-lg rounded-bl-lg">
-              <h2 className="text-4xl text-white font-bold">15</h2>
+              <h2 className="text-4xl text-white font-bold">20</h2>
               <div>
                 <p className="text-2xl text-white font-bold pl-1">%</p>
                 <p className="text-md text-white">off</p>
