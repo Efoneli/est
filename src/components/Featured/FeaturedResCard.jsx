@@ -14,11 +14,11 @@ function FeaturedResCard({ featuredData }) {
         <div className="relative ">
           <img src={photo} alt="..." className="h-[200px] rounded-xl" />
           <div className="absolute top-0 left-0 right-0px-4 py-2 px-2 flex items-center">
-            <button className="flex items-center text-white text-sm bg-orangeColor rounded-md mx-1 px-3 py-1">
+            <button className="flex items-center text-white text-xs bg-orangeColor rounded-md mx-1 px-3 py-1">
               <BsTagFill />
               {discount}
             </button>
-            <button className="flex items-center text-white text-sm bg-yellowColor rounded-md mx-1 px-3 py-1">
+            <button className="flex items-center text-white text-xs bg-yellowColor rounded-md mx-1 px-3 py-1">
               {" "}
               <BiSolidTimeFive />
               {badgeFast}

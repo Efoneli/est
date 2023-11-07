@@ -4,7 +4,7 @@ import FeaturedList from '../components/Featured/FeaturedList'
 function FeaturedRes() {
   return (
     <>
-     <FeaturedList />   
+     <FeaturedList />
     </>
   )
 }

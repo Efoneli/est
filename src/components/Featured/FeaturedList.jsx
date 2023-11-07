@@ -1,17 +1,26 @@
-import React from 'react'
-import { featuredDatas } from '../Assets/data/featuredDatas'
-import FeaturedResCard from './FeaturedResCard'
+import React from "react";
+import { featuredDatas } from "../Assets/data/featuredDatas";
+import FeaturedResCard from "./FeaturedResCard";
+import { AiOutlineRight } from "react-icons/ai";
 
 function FeaturedList() {
   return (
     <>
-         <h1 className='font-extrabold text-center m-5'>Featured Restuarants</h1>
-         <div className='grid grid-cols-1 place-content-center mr-6 ml-6 phone:grid-cols-4'>
-         {featuredDatas.map((featuredData) => <FeaturedResCard key={ featuredData.id} featuredData={featuredData} />)}
-</div>
+      <h1 className="font-extrabold text-center m-5">Featured Restuarants</h1>
+      <div className="grid grid-cols-1 place-items-center gap-5 mr-8 ml-8 phone:grid-cols-4 ">
+        {featuredDatas.map((featuredData) => (
+          <FeaturedResCard key={featuredData.id} featuredData={featuredData} />
+        ))}
+      </div>
 
+      <div className="flex items-center justify-center m-4 mb-5">
+        <button className="bg-gradient-to-r from-orange-200 to-yellowColor text-white text-xs px-4 py-2 rounded-md flex items-center">
+          View All
+          <AiOutlineRight />
+        </button>
+      </div>
     </>
-  )
+  );
 }
 
-export default FeaturedList
+export default FeaturedList;
