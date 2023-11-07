@@ -28,12 +28,14 @@ function Header() {
           </div>
           <p className='text-bold'>Search Food</p>
         </div>
+
         <div className='flex justify-between items-center'>
         <button className='flex items-center justify-between shadow-lg shadow-red-500 rounded-md px-3 py-1 text-orangeColor'>
         <BiSolidUser className='text-yellowColor' />
           Login
         </button>
-        </div>  
+        </div> 
+         
       </div>
     </div>
     
