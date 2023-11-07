@@ -14,7 +14,7 @@ function FeaturedList() {
       </div>
 
       <div className="flex items-center justify-center m-4 mb-5">
-        <button className="bg-gradient-to-r from-orange-200 to-yellowColor text-white text-xs px-4 py-2 rounded-md flex items-center">
+        <button className="bg-gradient-to-r from-yellow-400 to-yellowColor text-white text-xs px-4 py-2 rounded-md flex items-center font-bold">
           View All
           <AiOutlineRight />
         </button>

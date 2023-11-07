@@ -8,6 +8,7 @@ import FlashCard from "./FlashCard";
 import HowWorks from "../components/How/HowWorks";
 import PopularItems from "./PopularItems";
 import FeaturedRes from "./FeaturedRes";
+import SearchFood from "./SearchFood";
 
 function Home() {
   return (
@@ -69,6 +70,7 @@ function Home() {
     <HowWorks />
     <PopularItems />
     <FeaturedRes />
+    <SearchFood />
     </>
   );
 }
