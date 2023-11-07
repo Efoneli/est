@@ -7,6 +7,8 @@ import ImageHome from "../components/Assets/images/ImageHome.png";
 import FlashCard from "./FlashCard";
 import HowWorks from "../components/How/HowWorks";
 import PopularItems from "./PopularItems";
+import { FeaturedDatas } from "../components/Assets/data/featuredDatas";
+import FeaturedRes from "./FeaturedRes";
 
 function Home() {
   return (
@@ -67,6 +69,7 @@ function Home() {
     <FlashCard />
     <HowWorks />
     <PopularItems />
+    <FeaturedRes />
     </>
   );
 }
