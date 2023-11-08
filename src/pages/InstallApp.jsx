@@ -9,9 +9,9 @@ import { BsGooglePlay, BsApple } from "react-icons/bs";
 function InstallApp() {
   return (
     <>
-       <div className='bg-orange-100 px-6 pt-12'>
+       <div className='flex flex-col  items-center bg-orange-100 px-6 pt-12'>
 
-        <div className='bg-white flex justify-around items-center rounded-2xl w-[450px] h-[110px] p-6'>
+        <div className='bg-white flex justify-center items-center rounded-2xl w-[450px] h-[110px] p-6 shadow-lg shadow-yellowColor'>
             <div className='flex items-center justify-center border-r'>
                 <img src={Icon1} alt="icon" className='h-[50px] px-2 pl-4' />
                 <p className='text-sm pr-3'>Daily <br />Discounts</p>

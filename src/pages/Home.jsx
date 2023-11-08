@@ -10,6 +10,7 @@ import PopularItems from "./PopularItems";
 import FeaturedRes from "./FeaturedRes";
 import SearchFood from "./SearchFood";
 import InstallApp from "./InstallApp";
+import BestDeals from "./BestDeals";
 
 function Home() {
   return (
@@ -73,6 +74,7 @@ function Home() {
     <FeaturedRes />
     <SearchFood />
     <InstallApp />
+    <BestDeals />
     </>
   );
 }
