@@ -9,6 +9,7 @@ import HowWorks from "../components/How/HowWorks";
 import PopularItems from "./PopularItems";
 import FeaturedRes from "./FeaturedRes";
 import SearchFood from "./SearchFood";
+import InstallApp from "./InstallApp";
 
 function Home() {
   return (
@@ -71,6 +72,7 @@ function Home() {
     <PopularItems />
     <FeaturedRes />
     <SearchFood />
+    <InstallApp />
     </>
   );
 }
