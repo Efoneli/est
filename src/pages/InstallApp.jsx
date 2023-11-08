@@ -3,6 +3,7 @@ import Icon1 from '../components/Assets/images/Icon1.png'
 import Icon2 from '../components/Assets/images/Icon2.png'
 import Icon3 from '../components/Assets/images/Icon3.png'
 import mobile from '../components/Assets/images/mobile.png'
+import { BsGooglePlay, BsApple } from "react-icons/bs";
 
 
 function InstallApp() {
@@ -27,28 +28,36 @@ function InstallApp() {
             </div>
         </div>
         
-        <div className='flex justify-center'>
+        <div className='flex justify-around mt-9 pt-9'>
+            <div className=''>
             <img src={mobile} alt="mobile" />
-            <div className='flex flex-col'>
-                <h2 className='font-extrabold text-2xl text-gradient-to-r from-yellow-400 to-orangeColor'>Install the app</h2>
+            </div>
+
+            <div className='flex items-center justify-center flex-col '>
+                <div>
+                <h2 className='font-extrabold text-2xl bg-gradient-to-r from-yellowColor to-orangeColor inline-block text-transparent bg-clip-text'>Install the app</h2>
                 <p className='text-[0.6rem] text-gray-500'>
                 It's never been easier to order food. Look for the <br /> finest discounts and you'll be lost in a world of <br />delectable food.
                 </p>
+                </div>             
 
-                <div className='flex'>
-                    <div>
-                        playstore
+                <div className='flex items-center justify-center'>
+                    <div className='flex items-center justify-between bg-white m-2 p-2 rounded-md'>
                         <div>
-                            <p>GET IT ON</p>
-                            <h2>Google Play</h2>
+                        <BsGooglePlay className='text-orangeColor mr-2 h-[25px]' />
+                        </div>
+                        <div className='text-xs'>
+                            <p className='text-[0.45rem] leading-[0.45rem]'>GET IT ON</p>
+                            <h2 className='font-bold'>Google Play</h2>
                         </div>
                     </div>
 
-                    <div>
-                        playstore
-                        <div>
-                            <p>DOWNLOAD ON THE</p>
-                            <h2>App Store</h2>
+                    <div className='flex items-center justify-between bg-white m-2 p-2 rounded-md'>                        <div>
+                        <BsApple className='text-orangeColor h-[25px] mr-2' />
+                        </div>
+                        <div className='text-xs pr-4'>
+                            <p className='text-[0.45rem] leading-[0.45rem]'>DOWNLOAD ON THE</p>
+                            <h2 className='font-bold'>App Store</h2>
                         </div>
                     </div>
                 </div>
