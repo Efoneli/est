@@ -14,19 +14,24 @@ function Header() {
     </div>
 
       <div className='flex justify-center items-center'>
-        <FaLocationDot className='text-yellowColor' />
-      <p>Deliver to:</p>
-      <div>
-        current location <span>Mohammed Bus stand, dhak</span>
-      </div>
+        <div className='text-xs flex items-center justify-between'>
+        <p className='hidden md:block font-bold px-2'>Deliver to:</p>
+        <div className='px-2 text-lg text-yellowColor'>
+        <FaLocationDot />
+        </div>
+      <p className='hidden md:block'>
+        current location <span className='font-bold'>Mohammed Bus stand, dhak</span>
+      </p>
+        </div>
+   
       </div>
 
       <div className='flex justify-between items-center'> 
         <div className='flex justify-between items-center'>
-          <div className='text-yellowColor text-bold'>
-          <AiOutlineSearch />
+          <div className='text-yellowColor font-bold text-lg pl-1 pr-4'>
+            <AiOutlineSearch />
           </div>
-          <p className='text-bold'>Search Food</p>
+          <p className='hidden md:block text-xs font-bold px-2'>Search Food</p>
         </div>
 
         <div className='flex justify-between items-center'>
