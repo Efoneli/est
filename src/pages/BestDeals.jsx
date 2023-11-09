@@ -94,15 +94,13 @@ function BestDeals() {
         </div>
       </div>
 
-      <div className="relative">
-        <div className="">
-        <img src={order} alt="order" />
-        </div>
-            <div className="absolute top-0 left-24 translate-x-12 translate-y-2">
-            <h1 className="font-extrabold text-2xl text-white text-center">
+      <div className="relative min-w-full mt-20">
+        <img src={order} alt="order" className="h-64 object-cover"/>
+        <div class="absolute inset-0 flex flex-col items-center justify-center">
+            <h1 className="font-extrabold text-2xl text-white text-center md:text-lg">
                 Are you ready to order with <br />the best deals?
             </h1>
-            <button className="bg-orangeColor text-white text-xs px-4 py-2 mt-7 rounded-md flex items-center font-bold">
+            <button className="bg-orangeColor text-white text-xs font-bold px-4 py-2 mt-7 rounded-md flex items-center">
                 PROCEED TO ORDER
                 <AiOutlineRight className="" />
             </button>
