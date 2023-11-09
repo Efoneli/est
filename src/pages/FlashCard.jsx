@@ -30,7 +30,7 @@ function FlashCard() {
 
         <div className="m-2 p-2">
           <div className="relative">
-            <img src={Image2} alt="image" className="rounded-lg" />
+            <img src={Image2} alt="imag" className="rounded-lg" />
             <div className="absolute bottom-0 left-0 right-0px-4 py-1 px-2 bg-yellowColor flex items-center rounded-tr-lg rounded-bl-lg">
               <h2 className="text-4xl text-white font-bold">10</h2>
               <div>
@@ -48,7 +48,7 @@ function FlashCard() {
 
         <div className="m-2 p-2">
           <div className="relative">
-            <img src={Image3} alt="image" className="rounded-lg" />
+            <img src={Image3} alt="imag" className="rounded-lg" />
             <div className="absolute bottom-0 left-0 right-0px-4 py-1 px-2 bg-yellowColor flex items-center rounded-tr-lg rounded-bl-lg">
               <h2 className="text-4xl text-white font-bold">25</h2>
               <div>
@@ -66,7 +66,7 @@ function FlashCard() {
 
         <div className="m-2 p-2">
           <div className="relative">
-            <img src={Image4} alt="image" className="rounded-lg" />
+            <img src={Image4} alt="imag" className="rounded-lg" />
             <div className="absolute bottom-0 left-0 right-0px-4 py-1 px-2 bg-yellowColor flex items-center rounded-tr-lg rounded-bl-lg">
               <h2 className="text-4xl text-white font-bold">20</h2>
               <div>

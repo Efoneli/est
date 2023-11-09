@@ -9,7 +9,7 @@ import { BiLogoFacebookCircle } from "react-icons/bi";
 
 function Footer() {
   return (
-    <div className="bg-[#212121] text-white p-10 text-xs">
+    <div className="bg-[#212121] text-white text-center pt-20 p-10 text-xs">
       <h1 className="font-bold ml-8">Our top cities</h1>
       <div className="grid gap-4 grid-cols-1 phone:grid-cols-3 justify-around items-center m-5 laptop:grid-cols-5">
         <div className=" ">
@@ -77,13 +77,16 @@ function Footer() {
           <p>Cookie Policy</p>
         </div>
 
+{/* social media */}
         <div>
           <h1 className="pb-2">FOLLOW US</h1>
-          <div className="flex justify-start items-center py-2 text-gray-500">
+          <div className="flex justify-center items-center py-2 text-gray-500">
             <AiOutlineInstagram  className="mr-1"/>
             <BiLogoFacebookCircle  className="mx-1"/>
             <AiOutlineTwitter className="mx-1" />
           </div>
+
+          {/* form for email offers */}
           <p className="py-2">Receive exlusive offers in your mailbox</p>
 
           <form className="flex justify-between items-center py-3">
@@ -108,6 +111,7 @@ function Footer() {
 
       <hr />
 
+{/* footnote */}
       <div className="flex flex-col justify-between items-center mt-3 phone:flex-row ">
         <p>All rights Reserved &#169; foodwagon, 2023</p>
         <p className="flex justify-around">

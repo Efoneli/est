@@ -8,8 +8,8 @@ import order from "../components/Assets/images/order.png";
 function BestDeals() {
   return (
     <>
-      <div className="bg-white grid gap-10 place-items-center m-8 p-5">
-        <div className="max-w-sm shadow-xl rounded-lg flex flex-col items-center justify-center md:flex-row md:max-w-xl">
+      <div className="bg-white grid gap-10 place-items-center m-8 mt-[50px] p-5">
+        <div className="max-w-sm shadow-lg shadow-gray-500 rounded-lg flex flex-col items-center justify-center md:flex-row md:max-w-xl">
           <div>
             <div className="p-5">
               <h2 className="font-extrabold text-xl">
@@ -37,7 +37,7 @@ function BestDeals() {
           </div>
         </div>
 
-        <div className="max-w-sm shadow-xl rounded-lg flex flex-col-reverse items-center justify-center md:flex-row md:max-w-xl">
+        <div className="max-w-sm shadow-lg shadow-gray-500 rounded-lg flex flex-col-reverse items-center justify-center md:flex-row md:max-w-xl">
           <div className="">
             <img
               src={best2}
@@ -65,7 +65,7 @@ function BestDeals() {
           </div>
         </div>
 
-        <div className="max-w-sm shadow-xl rounded-lg flex flex-col items-center justify-center md:flex-row md:max-w-xl">
+        <div className="max-w-sm shadow-lg shadow-gray-500 rounded-lg flex flex-col items-center justify-center md:flex-row md:max-w-xl">
           <div>
             <div className="p-5">
               <h2 className="font-extrabold text-xl">
