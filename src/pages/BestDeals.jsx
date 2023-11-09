@@ -8,7 +8,7 @@ import order from "../components/Assets/images/order.png";
 function BestDeals() {
   return (
     <>
-      <div className="bg-white grid gap-6 place-items-center m-8 p-5">
+      <div className="bg-white grid gap-10 place-items-center m-8 p-5">
         <div className="max-w-sm shadow-xl rounded-lg flex flex-col items-center justify-center md:flex-row md:max-w-xl">
           <div>
             <div className="p-5">

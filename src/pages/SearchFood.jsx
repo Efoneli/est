@@ -31,7 +31,7 @@ function SearchFood() {
                 </div>
             </div>
 
-        <div className='grid grid-cols-3 my-8 p-5 phone:grid-cols-6'>
+        <div className='grid grid-cols-3 gap-5 my-8 p-5 text-gray-700 font-bold phone:grid-cols-6'>
             <div className='flex flex-col justify-start items-center'>
                 <img src={search1} alt="food" className='rounded-full h-[150px] w-[150px]' />
                 <p>Pizza</p>
@@ -39,27 +39,27 @@ function SearchFood() {
 
             <div className='flex flex-col justify-start items-center'>
                 <img src={search2} alt="food" className='rounded-full h-[150px] w-[150px]' />
-                <p>Pizza</p>
+                <p>Burger</p>
             </div>
 
             <div className='flex flex-col justify-start items-center'>
                 <img src={search3} alt="food" className='rounded-full h-[150px] w-[150px]' />
-                <p>Pizza</p>
+                <p>Noodles</p>
             </div>
 
             <div className='flex flex-col justify-start items-center'>
                 <img src={search4} alt="food" className='rounded-full h-[150px] w-[150px]' />
-                <p>Pizza</p>
+                <p>Sub-sandwich</p>
             </div>
 
              <div className='flex flex-col justify-start items-center'>
                 <img src={search5} alt="food" className='rounded-full h-[150px] w-[150px]' />
-                <p>Pizza</p>
+                <p>Chowmein</p>
             </div>
 
             <div className='flex flex-col justify-start items-center'>
                 <img src={search6} alt="food" className='rounded-full h-[150px] w-[150px]' />
-                <p>Pizza</p>
+                <p>Steak</p>
             </div>
         </div>
 
