@@ -1,6 +1,6 @@
 import React from "react";
 import { BiSolidShoppingBag } from "react-icons/bi";
-import { GrBike } from "react-icons/gr";
+import { MdPedalBike } from "react-icons/md";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaLocationDot } from "react-icons/fa6";
 import ImageHome from "../components/Assets/images/ImageHome.png";
@@ -15,23 +15,25 @@ import BestDeals from "./BestDeals";
 function Home() {
   return (
     <>
-    <div className="home p-5">
+    <div className="home pt-5 ">
       <div className="">
-      <h1 className="text-white font-extrabold text-3xl phone:pt-10 pb-5 ml-20 pl-20 ">Are you starving?</h1>
-      <p className="text-xs text-gray-700 py-2 phone:ml-20 pl-9">
+      <h1 className="text-white font-extrabold text-3xl phone:pt-10 pb-5 ml-16 pl-16 ">Are you starving?</h1>
+      <p className="text-xs text-gray-700 py-2 phone:ml-16 pl-16">
         Within a few clicks, find meals that are accessible near you
       </p>
       </div>
 
+{/* Pickup form div */}
+
       <div className="flex flex-col-reverse  phone:flex-row justify-around items-center">
         <div className="bg-white rounded-lg">
           <div className="flex justify-start items-center p-2 m-2">
-            <div className="flex justify-around items-center py-1 px-3 text-sm font-bold bg-[#f6ddcf] text-orangeColor rounded">
-              <GrBike className="mx-1 text-orangeColor" />
+            <div className="flex justify-around items-center m-1 py-1 px-3 text-sm font-bold bg-[#f6ddcf] text-orangeColor rounded">
+              <MdPedalBike className="mr-2" />
               <button>Delivery</button>
             </div>
-            <div className="flex justify-between items-center py-1 px-3 text-sm font-bold text-gray-500 rounded">
-              <BiSolidShoppingBag />
+            <div className="flex justify-between items-center m-1 py-1 px-3 text-sm font-bold bg-gray-100 text-gray-500 rounded">
+              <BiSolidShoppingBag className="mr-2" />
               <button>Pickup</button>
             </div>
           </div>
@@ -64,7 +66,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="my-2 py-2">
+        <div className="">
           <img src={ImageHome} height='350px' width='350px' alt="food" />
         </div>
       </div>
