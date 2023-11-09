@@ -16,10 +16,12 @@ function Home() {
   return (
     <>
     <div className="home p-5">
-      <h1 className="text-white font-extrabold text-3xl phone:pt-10 pb-5 ml-20 pl-9 ">Are you starving?</h1>
-      <p className="text-xs py-2 phone:ml-20 pl-9">
+      <div className="">
+      <h1 className="text-white font-extrabold text-3xl phone:pt-10 pb-5 ml-20 pl-20 ">Are you starving?</h1>
+      <p className="text-xs text-gray-700 py-2 phone:ml-20 pl-9">
         Within a few clicks, find meals that are accessible near you
       </p>
+      </div>
 
       <div className="flex flex-col-reverse  phone:flex-row justify-around items-center">
         <div className="bg-white rounded-lg">

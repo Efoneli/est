@@ -42,7 +42,7 @@ function BestDeals() {
             <img
               src={best2}
               alt="deals"
-              className="h-[16.5rem] w-[64rem] rounded-l-lg"
+              className="h-[16.5rem] w-[64rem] rounded-b-lg md:rounded-l-lg"
             />
           </div>
 
@@ -88,7 +88,7 @@ function BestDeals() {
             <img
               src={best3}
               alt="deals"
-              className="h-[16.5rem] w-[64rem] rounded-r-lg"
+              className="h-[16.5rem] w-[64rem] rounded-b-lg md:rounded-r-lg"
             />
           </div>
         </div>
@@ -98,11 +98,11 @@ function BestDeals() {
         <div className="">
         <img src={order} alt="order" />
         </div>
-            <div className="absolute top-0 left-24 translate-x-12">
+            <div className="absolute top-0 left-24 translate-x-12 translate-y-2">
             <h1 className="font-extrabold text-2xl text-white text-center">
                 Are you ready to order with <br />the best deals?
             </h1>
-            <button className="bg-orangeColor text-white text-xs px-4 py-2 mt-7 rounded-md flex items-center justify-center font-bold">
+            <button className="bg-orangeColor text-white text-xs px-4 py-2 mt-7 rounded-md flex items-center font-bold">
                 PROCEED TO ORDER
                 <AiOutlineRight className="" />
             </button>
