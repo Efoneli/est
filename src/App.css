@@ -13,7 +13,7 @@
 .home {
   background: url(./components/Assets/images/home-bg.png);
   background-repeat: no-repeat;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .flashCard1 {

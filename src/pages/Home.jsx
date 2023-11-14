@@ -14,19 +14,19 @@ import BestDeals from "./BestDeals";
 
 function Home() {
   return (
-    <>
-    <div className="home pt-5 ">
+    <div className=" ">
+    <div className="w-screen bg-gradient-to-br from-yellow-400 to-yellow-600 pt-5 mb-8 ">
       <div className="">
-      <h1 className="text-white font-extrabold text-3xl phone:pt-10 pb-5 ml-16 pl-16 ">Are you starving?</h1>
-      <p className="text-xs text-gray-700 py-2 phone:ml-16 pl-16">
+      <h1 className="text-white font-extrabold ml-0 text-3xl phone:pt-10 pb-5 phone:ml-16 pl-16 ">Are you starving?</h1>
+      <p className="text-xs text-gray-700 ml-0 py-2 phone:ml-16 pl-16">
         Within a few clicks, find meals that are accessible near you
       </p>
       </div>
 
 {/* Pickup form div */}
 
-      <div className="flex flex-col-reverse  phone:flex-row justify-around items-center">
-        <div className="bg-white rounded-lg">
+      <div className=" flex flex-col-reverse pb-8 phone:flex-row justify-around items-center">
+        <div className="bg-white rounded-lg mx-8">
           <div className="flex justify-start items-center p-2 m-2">
             <div className="flex justify-around items-center m-1 py-1 px-3 text-sm font-bold bg-[#f6ddcf] text-orangeColor rounded">
               <MdPedalBike className="mr-2" />
@@ -58,8 +58,10 @@ function Home() {
                 <button className="bg-orangeColor rounded pl-10 px-2 py-2 text-white font-bold">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center">
                   <AiOutlineSearch />
-                  </div>              
-                  Find Food
+                  </div> 
+                  <p>
+                    Find Food
+                  </p>             
                 </button>
               </div>
             </form>
@@ -79,7 +81,7 @@ function Home() {
     <SearchFood />
     <InstallApp />
     <BestDeals />
-    </>
+    </div>
   );
 }
 
