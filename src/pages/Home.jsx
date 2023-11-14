@@ -1,3 +1,30 @@
+// import {useState} from 'react'
+
+// function Home() {
+//   const [data, setData] = useState([])
+//   const url = 'https://jsonplaceholder.typicode.com/users'
+
+//   fetch(url)
+//   .then(res => {
+//     console.log('response')
+//   })
+//   .catch(err => {
+//     console.log('err', err)
+//   })
+
+//   return (
+//     <div>
+//       hi, and welcome
+//     </div>
+//   )
+// }
+
+// export default Home
+
+
+
+
+
 import React from "react";
 import { BiSolidShoppingBag } from "react-icons/bi";
 import { MdPedalBike } from "react-icons/md";

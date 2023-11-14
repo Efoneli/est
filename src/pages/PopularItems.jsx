@@ -12,7 +12,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const PopularItems = () => {
   return (
-    <div className="ml-[50px] pl-[30px] mt-[30px] lg:mt-[55px]">
+    <div className=" pl-[40px] mt-[30px] lg:mt-[55px]">
       <Swiper
         modules={[Pagination]}
         spaceBetween={5}

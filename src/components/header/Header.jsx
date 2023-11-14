@@ -7,7 +7,7 @@ import { BiSolidUser } from "react-icons/bi";
 function Header() {
   return (
     <>
-    <div className='flex justify-around items-center m-3 p-2'>
+    <div className='flex justify-around items-center m-3 mx-6 p-2'>
 
     <div>
       <img src={logo} alt='logo' />

@@ -11,19 +11,19 @@ function InstallApp() {
     <>
        <div className='flex flex-col  items-center bg-orange-100 px-6 pt-12'>
 
-        <div className='bg-white flex justify-center items-center rounded-2xl w-[450px] h-[110px] p-6 shadow-lg shadow-yellowColor'>
+        <div className='bg-white flex justify-center items-center rounded-2xl w-full h-auto p-6 shadow-lg shadow-yellowColor md:w-[450px]'>
             <div className='flex items-center justify-center border-r'>
-                <img src={Icon1} alt="icon" className='h-[50px] px-2 pl-4' />
+                <img src={Icon1} alt="icon" className='sm:w-full h-[30px] lg:h-[50px] px-2 pl-4' />
                 <p className='text-sm pr-3'>Daily <br />Discounts</p>
             </div>
 
-            <div className='flex items-center justify-center border-r'>
-                <img src={Icon2} alt="icon" className='h-[50px] px-2 pl-4' />
+            <div className='flex items-center justify-center border-r px-2'>
+                <img src={Icon2} alt="icon" className='sm:w-full h-[30px] lg:h-[50px] px-2 pl-4' />
                 <p className='text-sm pr-3'>Live <br />Tracing</p>
             </div>
 
             <div className='flex items-center justify-center'>
-                <img src={Icon3} alt="icon" className='h-[50px] px-2 pl-4' />
+                <img src={Icon3} alt="icon" className='sm:w-full h-[30px] lg:h-[50px] px-2 pl-4' />
                 <p className='text-sm pr-3'>Quick <br />Delivery</p>
             </div>
         </div>
@@ -42,7 +42,7 @@ function InstallApp() {
                 </div>             
 
                 <div className='flex items-center justify-center'>
-                    <div className='flex items-center justify-between bg-white m-2 p-2 rounded-md'>
+                    <div className='flex items-center justify-between bg-white rounded-md m-2 p-2 '>
                         <div>
                         <BsGooglePlay className='text-orangeColor mr-2 h-[25px]' />
                         </div>
