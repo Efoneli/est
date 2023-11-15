@@ -53,8 +53,9 @@ function Home() {
 {/* Pickup form div */}
 
       <div className=" flex flex-col-reverse pb-8 phone:flex-row justify-around items-center">
-        <div className="bg-white rounded-lg mx-8">
-          <div className="flex justify-start items-center p-2 m-2">
+        <div className="bg-white rounded-lg">
+
+          <div className="flex justify-start items-center p-2 m-2 mx-24">
             <div className="flex justify-around items-center m-1 py-1 px-3 text-sm font-bold bg-[#f6ddcf] text-orangeColor rounded">
               <MdPedalBike className="mr-2" />
               <button>Delivery</button>
@@ -64,6 +65,7 @@ function Home() {
               <button>Pickup</button>
             </div>
           </div>
+         
 
           <hr />
 
@@ -82,7 +84,7 @@ function Home() {
                 </div>
               </div>
               <div className="relative">
-                <button className="bg-orangeColor rounded pl-10 px-2 py-2 text-white font-bold">
+                <button className="bg-orangeColor rounded w-full h-auto pl-10 px-2 py-2 text-white font-bold">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center">
                   <AiOutlineSearch />
                   </div> 

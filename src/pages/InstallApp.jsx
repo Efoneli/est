@@ -28,7 +28,7 @@ function InstallApp() {
             </div>
         </div>
         
-        <div className='flex justify-around mt-9 pt-9'>
+        <div className='sm:flex flex-col md:flex-row justify-around mt-9 pt-9'>
             <div className=''>
             <img src={mobile} alt="mobile" />
             </div>
