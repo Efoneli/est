@@ -12,7 +12,7 @@ function FlashCard() {
 
         <div className="m-2 p-2">
           <div className="relative">
-            <img src={Image1} alt="image" className="rounded-lg" />
+            <img src={Image1} alt="imge" className="rounded-lg" />
             <div className="absolute bottom-0 left-0 right-0px-4 py-1 px-2 bg-yellowColor flex items-center rounded-tr-lg rounded-bl-lg">
               <h2 className="text-4xl text-white font-bold">15</h2>
               <div>

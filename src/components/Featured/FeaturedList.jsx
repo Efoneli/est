@@ -6,8 +6,8 @@ import { AiOutlineRight } from "react-icons/ai";
 function FeaturedList() {
   return (
     <>
-      <h1 className="font-extrabold text-2xl text-center mt-[60px] m-5">Featured Restuarants</h1>
-      <div className="grid grid-cols-1 place-items-center gap-5 mr-8 ml-8 phone:grid-cols-4 ">
+      <h1 className="font-extrabold text-2xl text-center mt-[60px >m-5">Featured Restuarants</h1>
+      <div className="grid grid-cols-1 place-items-center place-content-center gap-5 phone:grid-cols-4 ">
         {featuredDatas.map((featuredData) => (
           <FeaturedResCard key={featuredData.id} featuredData={featuredData} />
         ))}
